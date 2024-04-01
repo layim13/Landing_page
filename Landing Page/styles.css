@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.header{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.logo{
+  color: #f9faf8;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.links a{
+  text-decoration: none;
+  color: #f9faf8;
+  margin-left: 10px;
+}
+
+/* Section1 */
+
+.section1{
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+}
+
+.info_section1 h1{
+   color: #f9faf8;
+   font-size: 48px;
+   font-weight: 800;
+}
+
+.info_section1 h3{
+  color: #f9faf8;
+  font-weight: 400;
+  width: 350px;
+  font-size: 15px;
+}
+
+.btn_section1{
+  background-color: #3882F6;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+  color: #f9faf8;
+  margin-top: 10px;
+  width: 120px;
+}
+
+.img_section1 img{
+  width: 500px;
+  height: 250px;
+}
+
+/* Section 2 */
+
+.section2 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.img_parrafo{
+  display: flex;
+  justify-content: center;
+}
+
+.img_section2{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+}
+
+.img_section img{
+  margin-left: 1rem;
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.img_section2 p{
+  width: 120px;
+  margin-top: 1rem;
+}
+
+/* Section 3 */
+
+.section3{
+  background-color: #E5E7EB;
+  padding: 4rem;
+}
+
+.section3_info h2{
+  font-size: 36px;
+  font-style:italic;
+  font-weight: 100;
+  width: 700px;
+  color: #1F2937;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.section3_info h3{
+  margin-left:49rem;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+/* Section 4 */
+
+.section4{
+  background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  width: 750px;
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+.section4 h2{
+  color: #E5E7EB;
+  margin-right: 4rem;
+}
+
+.section4 p{
+  margin-right: 4rem;
+  color: #E5E7EB;
+}
+
+button{
+  background-color: #3882F6;
+  border: 2px solid #f9faf8;
+  color: #E5E7EB;
+  padding: 0.5rem 1rem;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #1F2937;
+  padding: 2.5rem;
+}
+
+.footer p{
+  text-align: center;
+  color: #E5E7EB;
+}
